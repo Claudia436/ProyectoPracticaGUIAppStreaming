@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MarvelActivity8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#11141D">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/wakanda"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ya disponible en IMAX Enhanced"
+            android:textColor="#A77B20"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Más información en disneyplus.com/IMAXEnhanced"
+            android:textColor="#8F8E91"
+            android:gravity="center"
+            android:textSize="15dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="62dp"
+                android:layout_height="40dp"
+                android:backgroundTint="#2C2F38"
+                android:text="12+"
+                android:textSize="15dp"
+                android:layout_marginRight="10dp"/>
+            <Button
+                android:layout_width="81dp"
+                android:layout_height="40dp"
+                android:backgroundTint="#2C2F38"
+                android:text="IMAX ENHANCED"
+                android:textSize="9dp"
+                android:layout_marginRight="10dp"/>
+            <Button
+                android:layout_width="55dp"
+                android:layout_height="45dp"
+                android:backgroundTint="#2C2F38"
+                android:text="HD"
+                android:textSize="15dp"
+                android:layout_marginRight="10dp"/>
+            <Button
+                android:layout_width="54dp"
+                android:layout_height="45dp"
+                android:backgroundTint="#2C2F38"
+                android:text="CC"
+                android:textSize="15dp"
+                android:layout_marginRight="10dp"/>
+            <Button
+                android:layout_width="61dp"
+                android:layout_height="45dp"
+                android:backgroundTint="#2C2F38"
+                android:text="AD)"
+                android:textSize="15dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2022 • 2 h 43 min • Ciencia ficción, Superhéroe, Acción y aventura"
+            android:textColor="#8F8E91"
+            android:gravity="center"
+            android:textSize="15dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_margin="10dp"
+            android:text="▶ VER"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"
+            android:textSize="19dp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="77dp"
+                android:layout_height="85dp"
+                android:backgroundTint="#11141D"
+                android:drawableTop="@drawable/mas"
+                android:text="Mi lista"
+                android:textStyle="bold"
+                android:textSize="11dp"
+                android:textColor="#8F8E91"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:layout_width="103dp"
+                android:layout_height="85dp"
+                android:backgroundTint="#11141D"
+                android:drawableTop="@drawable/grupo"
+                android:text="GroupWatch"
+                android:textStyle="bold"
+                android:textColor="#8F8E91"
+                android:textSize="11dp"
+                android:textAllCaps="false"/>
+            <Button
+                android:layout_width="103dp"
+                android:layout_height="85dp"
+                android:backgroundTint="#11141D"
+                android:drawableTop="@drawable/trailer"
+                android:text="GroupWatch"
+                android:textStyle="bold"
+                android:textSize="11dp"
+                android:textColor="#8F8E91"
+                android:textAllCaps="false"/>
+            <Button
+                android:layout_width="92dp"
+                android:layout_height="85dp"
+                android:backgroundTint="#11141D"
+                android:drawableTop="@drawable/descargar"
+                android:text="Descargar"
+                android:textStyle="bold"
+                android:textSize="11dp"
+                android:textColor="#8F8E91"
+                android:textAllCaps="false"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Los wakandianos defienden su país tras la muerte del rey T'Challa."
+            android:textColor="#8F8E91"
+            android:gravity="left"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="30dp"
+            android:textSize="18dp"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

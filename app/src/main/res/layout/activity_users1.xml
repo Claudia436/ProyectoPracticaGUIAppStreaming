@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UsersActivity1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#11141D">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¿Quién eres?"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#AEAFB4"
+            android:gravity="center"
+            android:layout_marginTop="60dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="40dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/user1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#11141D"
+                android:drawableTop="@drawable/user1"
+                android:text="Usuario 1"
+                android:textStyle="bold"
+                android:textColor="#AEAFB4"
+                android:textAllCaps="false"
+                android:layout_gravity="center"
+                android:layout_marginRight="60dp"/>
+
+            <Button
+                android:id="@+id/user2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#11141D"
+                android:drawableTop="@drawable/user2"
+                android:text="Usuario 2"
+                android:textStyle="bold"
+                android:textColor="#AEAFB4"
+                android:textAllCaps="false"
+                android:layout_gravity="center"
+                android:layout_marginRight="5dp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="40dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/user3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#11141D"
+                android:drawableTop="@drawable/user3"
+                android:text="Usuario 3"
+                android:textStyle="bold"
+                android:textColor="#AEAFB4"
+                android:textAllCaps="false"
+                android:layout_gravity="center"
+                android:layout_marginRight="60dp"/>
+
+            <Button
+                android:id="@+id/user4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#11141D"
+                android:drawableTop="@drawable/user4"
+                android:text="Usuario 4"
+                android:textStyle="bold"
+                android:textColor="#AEAFB4"
+                android:textAllCaps="false"
+                android:layout_gravity="center"
+                android:layout_marginRight="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="40dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/user5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#11141D"
+                android:drawableTop="@drawable/user5"
+                android:text="Usuario 5"
+                android:textStyle="bold"
+                android:textColor="#AEAFB4"
+                android:textAllCaps="false"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
