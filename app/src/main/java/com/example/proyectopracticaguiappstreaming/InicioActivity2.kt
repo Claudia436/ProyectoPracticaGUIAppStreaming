@@ -1,9 +1,11 @@
 package com.example.proyectopracticaguiappstreaming
 
 import android.content.Intent
+import android.media.Image
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageButton
 
 class InicioActivity2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -38,6 +40,37 @@ class InicioActivity2 : AppCompatActivity() {
         //botón star a película el menu
         findViewById<Button>(R.id.botonS).setOnClickListener {
             var intento = Intent(this, StarActivity11::class.java)
+            startActivity(intento)
+        }
+
+        //imagen botón a película wakanda
+        findViewById<ImageButton>(R.id.cartelera1).setOnClickListener {
+            var intento = Intent(this, MarvelActivity8::class.java)
+            startActivity(intento)
+        }
+        //imagen botón a serie la remesa mala
+        findViewById<ImageButton>(R.id.cartelera2).setOnClickListener {
+            var intento = Intent(this, StarActivity11::class.java)
+            startActivity(intento)
+        }
+        //imagen botón a serie la busqueda
+        findViewById<ImageButton>(R.id.cartelera3).setOnClickListener {
+            var intento = Intent(this, DisneyActivity6::class.java)
+            startActivity(intento)
+        }
+        //imagen botón geo a documental cosmos
+        findViewById<ImageButton>(R.id.cartelera4).setOnClickListener {
+            var intento = Intent(this, GeoActivity10::class.java)
+            startActivity(intento)
+        }
+        //imagen botón star a película el menu
+        findViewById<ImageButton>(R.id.cartelera5).setOnClickListener {
+            var intento = Intent(this, StarActivity11::class.java)
+            startActivity(intento)
+        }
+        //imagen botón pixar a película wall-e
+        findViewById<ImageButton>(R.id.cartelera6).setOnClickListener {
+            var intento = Intent(this, PixarActivity7::class.java)
             startActivity(intento)
         }
 

@@ -12,161 +12,245 @@
         android:orientation="vertical"
         android:background="#12151E">
 
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="70dp"
-            android:src="@drawable/logo2"
-            android:layout_gravity="center"/>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="250dp"
-                android:layout_margin="5dp"
-                android:src="@drawable/coleccion3"/>
-        </LinearLayout>
-
-        <LinearLayout
+        <ScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            tools:ignore="MissingConstraints">
 
-            <Button
-                android:id="@+id/botonD"
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:drawableEnd="@drawable/disney"
-                android:backgroundTint="#23232D"
-                android:layout_marginLeft="5dp"
-                android:layout_gravity="center"/>
+                android:orientation="vertical">
 
-            <Button
-                android:id="@+id/botonP"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:drawableEnd="@drawable/pixar"
-                android:backgroundTint="#23232D"
-                android:layout_marginRight="7dp"
-                android:layout_marginLeft="7dp"
-                android:layout_gravity="center"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
-            <Button
-                android:id="@+id/botonM"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:drawableEnd="@drawable/marvel"
-                android:backgroundTint="#23232D"
-                android:layout_marginRight="5dp"
-                android:layout_gravity="center"/>
-        </LinearLayout>
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/logo2"
+                        android:layout_gravity="center"/>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
 
-            <Button
-                android:id="@+id/botonW"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:drawableEnd="@drawable/wars"
-                android:backgroundTint="#23232D"
-                android:layout_marginLeft="5dp"
-                android:layout_gravity="center"/>
+                            <ImageView
+                                android:layout_width="400dp"
+                                android:layout_height="250dp"
+                                android:layout_margin="5dp"
+                                android:src="@drawable/slider" />
 
-            <Button
-                android:id="@+id/botonN"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:drawableEnd="@drawable/geo"
-                android:backgroundTint="#23232D"
-                android:layout_marginRight="7dp"
-                android:layout_marginLeft="7dp"
-                android:layout_gravity="center"/>
+                            <ImageView
+                                android:layout_width="400dp"
+                                android:layout_height="250dp"
+                                android:layout_margin="5dp"
+                                android:src="@drawable/slider1"/>
+                            <ImageView
+                                android:layout_width="400dp"
+                                android:layout_height="250dp"
+                                android:layout_margin="5dp"
+                                android:src="@drawable/slider2"/>
+                            <ImageView
+                                android:layout_width="400dp"
+                                android:layout_height="250dp"
+                                android:layout_margin="5dp"
+                                android:src="@drawable/slider3"/>
+                            <ImageView
+                                android:layout_width="400dp"
+                                android:layout_height="250dp"
+                                android:layout_margin="5dp"
+                                android:src="@drawable/slider4"/>
+                            <ImageView
+                                android:layout_width="400dp"
+                                android:layout_height="250dp"
+                                android:layout_margin="5dp"
+                                android:src="@drawable/slider5"/>
+                        </LinearLayout>
+                    </HorizontalScrollView>
 
-            <Button
-                android:id="@+id/botonS"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="5dp"
-                android:backgroundTint="#23232D"
-                android:drawableEnd="@drawable/star"
-                android:layout_gravity="center"/>
-        </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Nuevo en Disney+"
-            android:textColor="#8F8E91"
-            android:gravity="left"
-            android:textSize="17dp"
-            android:textStyle="bold"
-            android:layout_marginLeft="10dp"/>
+                        <Button
+                            android:id="@+id/botonD"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableEnd="@drawable/disney"
+                            android:backgroundTint="#23232D"
+                            android:layout_marginLeft="10dp"
+                            android:layout_gravity="center"/>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
+                        <Button
+                            android:id="@+id/botonP"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:drawableEnd="@drawable/pixar"
+                            android:backgroundTint="#23232D"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_gravity="center"/>
 
-            <ImageView
-                android:id="@+id/cartelera1"
-                android:layout_width="120dp"
-                android:layout_height="170dp"
-                android:src="@drawable/cartwakanda"
-                android:layout_margin="10dp"/>
-            <ImageView
-                android:id="@+id/cartelera2"
-                android:layout_width="120dp"
-                android:layout_height="170dp"
-                android:src="@drawable/cartremesa"
-                android:layout_marginTop="10dp"/>
-            <ImageView
-                android:id="@+id/cartelera3"
-                android:layout_width="120dp"
-                android:layout_height="170dp"
-                android:src="@drawable/cartbusqueda"
-                android:layout_margin="10dp"/>
-        </LinearLayout>
+                        <Button
+                            android:id="@+id/botonM"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableEnd="@drawable/marvel"
+                            android:backgroundTint="#23232D"
+                            android:layout_marginRight="10dp"
+                            android:layout_gravity="center"/>
+                    </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_margin="10dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
 
-            <Button
-                android:id="@+id/casa"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:drawableEnd="@drawable/casa"
-                android:backgroundTint="#12151E"
-                android:layout_marginLeft="40dp"
-                android:scaleType="centerInside"
-                android:layout_gravity="center"/>
+                        <Button
+                            android:id="@+id/botonW"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableEnd="@drawable/wars"
+                            android:backgroundTint="#23232D"
+                            android:layout_marginLeft="10dp"
+                            android:layout_gravity="center"/>
 
-            <Button
-                android:id="@+id/lupa"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:drawableEnd="@drawable/lupa"
-                android:backgroundTint="#12151E"
-                android:layout_marginLeft="10dp"
-                android:layout_gravity="center"
-                />
+                        <Button
+                            android:id="@+id/botonN"
+                            android:layout_width="125dp"
+                            android:layout_height="wrap_content"
+                            android:drawableEnd="@drawable/geo"
+                            android:backgroundTint="#23232D"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_gravity="center"/>
 
-            <Button
-                android:id="@+id/descarga"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:drawableEnd="@drawable/descarga"
-                android:backgroundTint="#12151E"
-                android:layout_marginLeft="10dp"
-                android:layout_gravity="center"/>
-        </LinearLayout>
+                        <Button
+                            android:id="@+id/botonS"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="10dp"
+                            android:backgroundTint="#23232D"
+                            android:drawableEnd="@drawable/star"
+                            android:layout_gravity="center"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Nuevo en Disney+"
+                        android:textColor="#8F8E91"
+                        android:gravity="left"
+                        android:textSize="17dp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/cartelera1"
+                            android:layout_width="120dp"
+                            android:layout_height="170dp"
+                            android:scaleType="centerCrop"
+                            android:background="@color/black"
+                            android:src="@drawable/cartwakanda"
+                            android:layout_margin="10dp"/>
+                        <ImageButton
+                            android:id="@+id/cartelera2"
+                            android:layout_width="120dp"
+                            android:layout_height="170dp"
+                            android:scaleType="centerCrop"
+                            android:background="@color/black"
+                            android:src="@drawable/cartremesa"
+                            android:layout_marginTop="10dp"/>
+                        <ImageButton
+                            android:id="@+id/cartelera3"
+                            android:layout_width="120dp"
+                            android:layout_height="170dp"
+                            android:scaleType="centerCrop"
+                            android:background="@color/black"
+                            android:src="@drawable/cartbusqueda"
+                            android:layout_margin="10dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/cartelera4"
+                            android:layout_width="120dp"
+                            android:layout_height="170dp"
+                            android:scaleType="centerCrop"
+                            android:background="@color/black"
+                            android:src="@drawable/cartcosmos"
+                            android:layout_margin="10dp"/>
+                        <ImageButton
+                            android:id="@+id/cartelera5"
+                            android:layout_width="120dp"
+                            android:layout_height="170dp"
+                            android:scaleType="centerCrop"
+                            android:background="@color/black"
+                            android:src="@drawable/cartmenu"
+                            android:layout_marginTop="10dp"/>
+                        <ImageButton
+                            android:id="@+id/cartelera6"
+                            android:layout_width="120dp"
+                            android:layout_height="170dp"
+                            android:scaleType="centerCrop"
+                            android:background="@color/black"
+                            android:src="@drawable/cartwalle"
+                            android:layout_margin="10dp"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp">
+
+                    <Button
+                        android:id="@+id/casa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableEnd="@drawable/casa"
+                        android:backgroundTint="#12151E"
+                        android:layout_marginLeft="40dp"
+                        android:scaleType="centerInside"
+                        android:layout_gravity="center"/>
+
+                    <Button
+                        android:id="@+id/lupa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableEnd="@drawable/lupa"
+                        android:backgroundTint="#12151E"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center"/>
+
+                    <Button
+                        android:id="@+id/descarga"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableEnd="@drawable/descarga"
+                        android:backgroundTint="#12151E"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
