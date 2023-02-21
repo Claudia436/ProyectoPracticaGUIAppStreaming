@@ -50,7 +50,7 @@ class InicioActivity2 : AppCompatActivity() {
         }
         //imagen botón a serie la remesa mala
         findViewById<ImageButton>(R.id.cartelera2).setOnClickListener {
-            var intento = Intent(this, StarActivity11::class.java)
+            var intento = Intent(this, WarsActivity9::class.java)
             startActivity(intento)
         }
         //imagen botón a serie la busqueda
